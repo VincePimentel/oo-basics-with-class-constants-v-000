@@ -13,7 +13,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def unique_brand=(brand)
+  def brand=(brand)
     @brand = brand
     BRANDS << brand if !BRANDS.include(brand)
   end
